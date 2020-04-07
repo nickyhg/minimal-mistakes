@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gang's blog"
+title                    : "Gang's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Gang"
-description              : "Somethings Never Change."
+name                     : "Gang Hu"
+description              : "Gang Hu's Blog for Personal Study Notes"
 url                      : "https://nickyhg.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nickyhg/nickyhg.github.io"
@@ -85,37 +85,32 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : UA-162909259-1
+    anonymize_ip         : false # true, false (default)
 
+  provider               : "custom"
 
 # Site Author
 author:
   name             : "Gang"
   avatar           : "/assets/images/sanzhi.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Somethings Never Change."
   location         : "Shanghai"
   email            : nickyhg@gmail.com
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/nicholashu"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "https://github.com/nickyhg"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
@@ -123,7 +118,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/nicholashu"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -132,7 +127,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/nickyhg"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -209,7 +204,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
